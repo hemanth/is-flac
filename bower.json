@@ -1,0 +1,31 @@
+{
+  "name": "is-flac",
+  "description": "Check if a Buffer/Uint8Array a FLAC file.",
+  "license": "MIT",
+  "main": "browser.js",
+  "authors": [
+    {
+      "name": "Hemanth.HM",
+      "email": "hemath.hm@gmail.com",
+      "url": "http://h3manth.com"
+    }
+  ],
+   "keywords": [
+    "flac",
+    "audio",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "binary",
+    "buffer",
+    "uint8array"
+  ],
+  "ignore": [
+    ".*",
+    "test.js",
+    "component.json",
+    "package.json",
+    "fixture*"
+  ]
+}

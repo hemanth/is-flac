@@ -1,0 +1,38 @@
+{
+  "name": "is-flac",
+  "version": "0.0.0",
+  "description": "Check if a Buffer/Uint8Array is a FLAC file.",
+  "license": "MIT",
+  "repository": "hemanth/is-flac",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "flac",
+    "audio",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "binary",
+    "buffer",
+    "uint8array"
+  ],
+  "devDependencies": {
+    "browserify": "^3.0.0",
+    "mocha": "*",
+    "read-chunk": "^0.1.0"
+  }
+}

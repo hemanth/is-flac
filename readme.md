@@ -48,7 +48,7 @@ xhr.send();
 
 ## API
 
-### isWav(buffer)
+### isFlac(buffer)
 
 Accepts a Buffer (Node.js) or Uint8Array.
 

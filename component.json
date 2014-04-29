@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Check if a Buffer/Uint8Array is a FLAC file",
   "license": "MIT",
-  "repo": "hemanth/is-flac",
+  "repository": "hemanth/is-flac",
   "scripts": [
     "index.js"
   ],

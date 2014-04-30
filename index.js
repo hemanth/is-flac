@@ -5,7 +5,7 @@ module.exports = function (buf) {
 	}
 
 	return buf[0] === 102 &&
-               buf[1] === 76 &&
-               buf[2] === 97 &&
-               buf[3] === 67 
+  buf[1] === 76 &&
+  buf[2] === 97 &&
+  buf[3] === 67; 
 };
